@@ -1,0 +1,166 @@
+/*
+Copyright: 2021 Franckycodes.com 
+Description: Some cute logo I use on most of my websites 
+Licence: Free
+Contact: franckycodes@gmail.com 
+*/
+:root
+{
+	--eeeColor: #eee;
+	--mainColor: #282828;
+	--mainColor: #444;
+	--mainColor: #fff;
+	--darkColor: #282828;
+	--lightColor: #ffffff;
+
+}
+.logo
+{
+
+}
+.icon
+{
+	width: 32px;
+	height: 32px;
+	margin: 20px;
+	background: var(--darkColor) ;
+	display: inline-flex;
+	flex-wrap: wrap;
+	cursor: pointer;
+	position: relative;
+	padding: 2px;
+}
+.humbergerMenu
+{
+	padding-top: 3px;
+}
+.humbergerMenu div
+{
+	width: 25px;
+	height: 3px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	background: var(--mainColor);
+}
+.user
+{
+	position: relative;
+	overflow: hidden;
+}
+.user div
+{
+	background: var(--mainColor);
+
+}
+.user .userHead
+{
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+.user .userBody
+{
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	position: absolute;
+	top: 23px;
+	left:5px;
+}
+.search
+{
+	position: relative;
+}
+.search .mainCircle
+{
+	width: 15px;
+	height: 15px;
+	/*//background: var(--mainColor);*/
+	border: 5px solid var(--mainColor);
+	border-radius: 100%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+.search .searchHand
+{
+	width: 10px;
+	height: 5px;
+	background: var(--mainColor);
+	border-radius: 5px;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.arrowStyle
+{
+	text-align: center;
+}
+.arrowStyleUp::before
+{
+	content: '';
+	/*width: 10px;
+	height: 10px;*/
+	border: 5px solid transparent;
+	display: block;
+	position: absolute;
+	border-bottom: 7px solid var(--mainColor);
+}
+.arrowStyleDown::before
+{
+	content: '';
+	/*width: 10px;
+	height: 10px;*/
+	border: 5px solid transparent;
+	display: block;
+	position: absolute;
+	border-top: 7px solid var(--mainColor);
+}
+
+.arrowStyleLeft::before
+{
+	content: '';
+	/*width: 10px;
+	height: 10px;*/
+	border: 5px solid transparent;
+	display: block;
+	position: absolute;
+	border-right: 7px solid var(--mainColor);
+}
+
+.arrowStyleRight::before
+{
+	content: '';
+	/*width: 10px;
+	height: 10px;*/
+	border: 5px solid transparent;
+	display: block;
+	position: absolute;
+	border-left: 7px solid var(--mainColor);
+}
+
+.closeCrossLeft{
+	width: 5px;
+	height: 15px;
+	background: var(--mainColor);
+	border-radius: 5px;
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 5px;
+	left: 9px;
+}
+.closeCrossRight
+{
+	width: 5px;
+	height: 15px;
+	background: var(--mainColor);
+	border-radius: 5px;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 5px;
+	left: 9px;
+}
